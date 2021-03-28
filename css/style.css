@@ -1,0 +1,67 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  background-image: linear-gradient(rgba(80, 75, 75, 0.5),rgba(80, 75, 75, 0.5)), url(/images/FilmMusicFocus-Banner-background.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+ul {
+  float: right;
+  margin-top: 25px;
+}
+ul li {
+  display: inline-block;
+  /* color: blanchedalmond; */
+}
+ul li a {
+  color: blanchedalmond;
+  text-decoration: none;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover {
+  background-color: white;
+  color: black;
+}
+.rutuja {
+  margin: auto;
+  max-width: 1200px;
+}
+
+ul li.active a {
+  background-color: white;
+  color: black;
+}
+.title{
+    /* color: thistle; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: whitesmoke;
+    font-size: 40px;
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: white;
+    color: black;  
+}
